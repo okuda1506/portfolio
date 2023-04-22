@@ -1,0 +1,512 @@
+@charset 'UTF-8';
+
+/*
+GENERAL STYLING
+================================================ */
+html {
+    font-size: 100%;
+}
+body {
+	color: #555;
+	font-family: sans-serif;
+}
+
+/*
+COMMON
+================================================ */
+p,
+td {
+    line-height: 1.7;
+}
+
+/* Layout */
+.wrapper {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+main {
+    max-width: 900px;
+    width: 94%;
+    margin: 6.25rem auto;
+    padding: 3rem 2rem;
+    background: #fff;
+    box-shadow: 0 0 6px rgba(0,0,0,.2);
+}
+.text-center {
+    text-align: center;
+}
+
+/* Button */
+.btn {
+    font-family: 'Sawarabi Mincho', sans-serif;
+    display: inline-block;
+    padding: 1.25rem 3.25rem;
+    font-size: 1.375rem;
+    text-align: center;
+    width: 100%;
+}
+.btn-primary {
+    color: #fff;
+    background: #1d467c;
+}
+.btn-primary:hover {
+    background: #3a7edf;
+}
+.btn-secondary {
+    color: #555;
+    background: #d0bea2;
+}
+.btn-secondary:hover {
+    background: #d9cebe;
+}
+
+/* Heading */
+.title {
+    font-family: 'Sawarabi Mincho', sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+.title::after {
+    content: '';
+    display: block;
+    height: 5px;
+    width: 10rem;
+    background: #d0bea2;
+    margin: 2rem 0 2.5rem;
+}
+.title-center {
+    text-align: center;
+}
+.title-center::after {
+    margin: 2.5rem auto;
+}
+
+/* Table */
+table {
+    margin: 3.5rem 0;
+    width: 100%;
+}
+th,
+td {
+    display: block;
+}
+th {
+    font-weight: normal;
+    background: #f8f6f2;
+    vertical-align: middle;
+    padding: 1rem;
+}
+td {
+    padding: .75rem 1rem 1.75rem;
+}
+
+/*
+HEADER
+================================================ */
+header .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+.main-nav {
+    display: flex;
+}
+.main-nav li {
+    text-align: center;
+    font-size: .75rem;
+}
+.logo {
+    width: 7.5rem;
+}
+.main-nav a {
+    display: block;
+    padding: .5rem;
+    width: 4rem;
+}
+.main-nav a::before {
+    display: block;
+    margin-bottom: .25rem;
+/* Font Awesome */
+    font-family: 'Font Awesome 5 Pro';
+    font-weight: 900;
+    color: #555;
+    font-size: 1.25rem;
+}
+.menu-home::before {
+    content: '\f015';
+}
+.menu-job::before {
+    content: '\f0ca';
+}
+.menu-form::before {
+    content: '\f56e';
+}
+.main-nav .current {
+    background: #f8f6f2;
+}
+
+/*
+HOME
+================================================ */
+.home-hero {
+    background: url('img/bg-hero.jpg') no-repeat right top / 70vw auto;
+    padding: 5.5rem 1rem 3rem;
+}
+.home-hero h2 {
+    font-family: 'Sawarabi Mincho', sans-serif;
+    font-size: 1.5rem;
+    margin: 8vw 0 12vw;
+    background: rgba(255,255,255,.8);
+    padding: 1rem;
+    display: inline-block;
+}
+.home-hero p {
+    font-size: 1.125rem;
+    margin-bottom: 2rem;
+}
+
+/* Contents */
+.brown-bg {
+    background: #f8f6f2;
+}
+.content {
+    padding: 4rem 1rem;
+}
+.home-text {
+    margin-bottom: 2rem;
+}
+.home-chart {
+    margin-left: 2vw;
+}
+.flex-reverse .home-chart {
+    margin: 0 2vw 0 0;
+}
+.home-chart img {
+    width: 100%;
+}
+.home-chart p {
+    text-align: center;
+}
+
+/* グラフの文字 */
+.ct-label {
+    font-size: 1rem;
+    fill: #fff;
+}
+
+/* 円グラフ */
+.ct-series-a .ct-slice-pie {
+    fill: #2d3374;
+}
+.ct-series-b .ct-slice-pie {
+    fill: #3a7edf;
+}
+.ct-series-c .ct-slice-pie {
+    fill: #9bcbf8;
+}
+.ct-series-d .ct-slice-pie {
+    fill: #bbb;
+}
+
+/* 棒グラフ */
+.ct-series-a .ct-bar {
+    stroke: #3a7edf;
+}
+.ct-bar {
+    stroke-width: 16%;
+}
+
+/*
+JOB.html
+================================================ */
+.page-job {
+    background-image: url('img/bg-job.jpg'), linear-gradient(180deg, transparent 0%,transparent 50%, #F8F6F2 50%, #F8F6F2 100%);
+    background-position: left 106px, 0 0;
+    background-size: 70vw auto, contain;
+    background-repeat: no-repeat;
+}
+.page-job .btn {
+    margin-bottom: 4rem;
+}
+
+/* Timeline */
+.timeline {
+    list-style: decimal inside;
+    font-family: 'Sawarabi Mincho', sans-serif;
+}
+.timeline-item {
+    margin-bottom: 2rem;
+}
+.timeline-title {
+    font-size: 1.375rem;
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+.timeline-content {
+    font-family: sans-serif;
+}
+
+/*
+FORM.html
+================================================ */
+.page-form {
+    background-image: url('img/bg-form.jpg'), linear-gradient(180deg, transparent 0%,transparent 50%, #F8F6F2 50%, #F8F6F2 100%);
+    background-position: right 106px, 0 0;
+    background-size: 70vw auto, contain;
+    background-repeat: no-repeat;
+}
+.text-small {
+    font-size: .875rem;
+}
+
+/* Form */
+input[type='text'],
+input[type='email'],
+input[type='url'],
+select,
+textarea {
+    border: 1px solid #bbb;
+    background: #fff;
+    padding: .5rem;
+    width: 100%;
+}
+input[type='text']::placeholder,
+input[type='email']::placeholder,
+input[type='url']::placeholder,
+textarea::placeholder {
+    color: #bbb;
+}
+textarea {
+    height: 10rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.select-box {
+    position: relative;
+}
+.select-box::after {
+    display: inline-block;
+    position: absolute;
+    top: .625rem;
+    right: 1rem;
+/* Font Awesome */
+    font-family: 'Font Awesome 5 Pro';
+    font-weight: 900;
+    content: '\f078';
+    color: #bbb;
+}
+
+/* デフォルトのチェックボックスを非表示 */
+input[type='checkbox'] {
+    opacity:0;
+    -webkit-appearance: none;
+    appearance: none;
+    position: absolute;
+}
+/* チェックボックス用の四角形を作る */
+input[type='checkbox'] + span::before {
+    display: inline-block;
+    content: '';
+    width: 1.5rem;
+    height: 1.5rem;
+    border: 1px solid #bbb;
+    background: #fff;
+    margin: -.125rem .5rem 0 0;
+    vertical-align: middle;
+
+/* Font Awesome */
+    font-family: 'Font Awesome 5 Pro';
+    font-weight: 900;
+    padding: 0 2px;
+    line-height: 1.5;
+}
+/* チェックが入るとチェックアイコンを表示 */
+input[type='checkbox']:checked + span::before {
+    content: '\f00c';
+}
+
+/*
+FOOTER
+================================================ */
+footer {
+    background: #1d467c;
+    color: rgba(255,255,255,.8);
+    padding: 3.5rem 1rem;
+    text-align: center;
+}
+footer .btn {
+    margin-bottom: 3.5rem;
+}
+.footer-nav li {
+    margin: 1rem 0;
+}
+.footer-nav a {
+    color: #d5d7e4;
+}
+
+/*
+MOBILE SIZE
+================================================ */
+@media (min-width: 600px) {
+/* Common */
+    main {
+        padding: 5rem;
+    }
+    .btn {
+        width: auto;
+    }
+    .title {
+        font-size: 1.875rem;
+    }
+
+/* Table */
+    tr:nth-child(odd) {
+        background: #f8f6f2;
+    }
+    tr:nth-child(even) th {
+        background: #fff;
+    }
+
+    th,
+    td {
+        padding: 1.25rem;
+        display: table-cell;
+    }
+    th {
+        width: 24%;
+        vertical-align: middle;
+    }
+    td {
+        width: 76%;
+    }
+
+/* Header */
+    header .wrapper {
+        padding: 2rem 1rem;
+    }
+    .logo {
+        width: 12.5rem;
+    }
+    .main-nav li {
+        margin-left: 2rem;
+        font-family: 'Sawarabi Mincho', sans-serif;
+        font-size: 1.25rem;
+    }
+    .main-nav a {
+        width: auto;
+    }
+    .main-nav a:hover,
+    .main-nav .current {
+        border-bottom: 2px solid #2d3374;
+        padding-bottom: .5rem;
+        background: none;
+    }
+    .main-nav a::before {
+        content: '';
+    }
+
+/* Home */
+    .home-hero {
+        padding: 16vw 1rem;
+    }
+    .home-hero h2 {
+        font-size: 2.5rem;
+        margin: 0 0 2rem;
+        background: none;
+        padding: 0;
+    }
+    .home-hero p {
+        width: 38vw;
+    }
+
+    /* Contents */
+    .content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 4rem 1rem;
+    }
+    .flex-reverse {
+        flex-direction: row-reverse;
+    }
+    .home-text {
+        width: 50vw;
+        margin-bottom: 0;
+    }
+    .home-chart {
+        width: 34vw;
+    }
+
+/* Timeline */
+    .timeline-item {
+        display: flex;
+        margin-bottom: 0;
+    }
+    .timeline-title {
+        width: 24%;
+        padding: 2rem 2.5rem 2rem 0;
+        text-align: right;
+    }
+    .timeline-content {
+        border-left: 5px solid #f8f6f2;
+        width: 76%;
+        padding: 1.5rem 0 1.5rem 2.5rem;
+        position: relative;
+    }
+    .timeline-content::before {
+        display: block;
+        width: 2.25rem;
+        height: 2.25rem;
+        background: #d0bea2;
+        text-align: center;
+        padding: .1rem;
+        position: absolute;
+        top: 1.5rem;
+        left: -1.5rem;
+    /* Font Awesome */
+        font-family: 'Font Awesome 5 Pro';
+        font-weight: 900;
+        color: #fff;
+        font-size: 1.25rem;
+    }
+    .icon-file::before{
+        content: '\f56e';
+    }
+    .icon-code::before{
+        content: '\f121';
+    }
+    .icon-chat::before{
+        content: '\f086';
+    }
+    .icon-hands::before{
+        content: '\f2b5';
+    }
+
+/* Form */
+    label {
+        display: inline-block;
+        margin: 0 1.5rem 0 0;
+    }
+    .select-box {
+        width: 40%;
+    }
+
+/* Footer */
+    .footer-nav {
+        display: flex;
+        justify-content: center;
+    }
+    .footer-nav li {
+        margin: 0 .75rem;
+    }
+    .footer-nav a:hover {
+        color: #fff;
+    }
+}
