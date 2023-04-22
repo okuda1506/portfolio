@@ -2,12 +2,9 @@
 
 ポートフォリオを新しく作り直してみました。
 
-ソースコードを全て公開します。
+ソースコードを全て公開します。（※PHPMailerとconfigファイルについては非公開）
 
-※PHPMailerとconfigファイルは非公開となります。
-
-古いポートフォリオのソースは[こちら](https://github.com/okuda1506/old_portfolio)から
-
+SNSアプリと情報登録アプリのテーブル作成クエリは下記の通り。
 
 ```sql
 ========================== bulletinBoard ==========================
@@ -30,11 +27,8 @@ CREATE TABLE `members` (
 -- テーブルのデータをダンプしています `members`
 --
 
-
--- --------------------------------------------------------
-
 --
--- テーブルの構造 `posts`
+-- `posts`
 --
 
 CREATE TABLE `posts` (
@@ -59,3 +53,8 @@ CREATE TABLE `people` (
 PRIMARY KEY (`id`)
 ) ENGINE = InnoDB ;
 ```
+
+
+
+
+古いポートフォリオのソースは[こちら](https://github.com/okuda1506/old_portfolio)から
