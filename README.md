@@ -6,4 +6,4 @@
 
 ※PHPMailerとconfigファイルは非公開となります。
 
-古いポートフォリオのソースは[こちら](https://github.com/okuda1506/old_portfolio).
+古いポートフォリオのソースは[こちら](https://github.com/okuda1506/old_portfolio)から
