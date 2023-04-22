@@ -8,8 +8,6 @@ $(function() {
     $('#myPic .main_visual img').css('transform', 'scaleX(1)').css('transform-origin', 'left center').css('transition', 'transform 700ms');
     $("#myPic .nav_menu").css("opacity", "0").animate({opacity: 1}, 1000);
     $('#myPic nav').css('transform', 'scaleX(1)').css('transform-origin', 'right center').css('transition', 'transform 700ms');
-    // $('section .title .txt').css('transform', 'scaleX(1)').css('transform-origin', 'left center').css('transition', 'transform 700ms');
-    // $('section .title .line').css('transform', 'scaleX(1)').css('transform-origin', 'right center').css('transition', 'transform 700ms');
     $('.check_contact').addClass('scroll-in');
     // 問い合わせ確認・完了画面におけるContact表示のアニメーション
     if ($('.title').find('#contact_animation').length) {
