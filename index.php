@@ -167,7 +167,7 @@ function h($str)
 								<div class="works_description">
 									<p>ポートフォリオ</p>
 									<p>使用技術：HTML / CSS / PHP / JavaScript(slick.js) / jQuery</p>
-									<a class="source" href="#" target="_blank" rel="noopener noreferrer">
+									<a class="source" href="https://github.com/okuda1506/potofolio" target="_blank" rel="noopener noreferrer">
 										<p>ソースコード <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"></p>
 									</a>
 								</div>
@@ -179,7 +179,7 @@ function h($str)
 								<div class="works_description">
 									<p>カフェサイトデモ</p>
 									<p>使用技術：HTML / CSS</p>
-									<a class="source" href="#" target="_blank" rel="noopener noreferrer">
+									<a class="source" href="https://github.com/okuda1506/potofolio/tree/main/works/wcb" target="_blank" rel="noopener noreferrer">
 										<p>ソースコード <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"></p>
 									</a>
 								</div>
@@ -191,7 +191,7 @@ function h($str)
 								<div class="works_description">
 									<p>コーポレートサイトデモ</p>
 									<p>使用技術：HTML / CSS / JavaScript</p>
-									<a class="source" href="#" target="_blank" rel="noopener noreferrer">
+									<a class="source" href="https://github.com/okuda1506/potofolio/tree/main/works/corporate" target="_blank" rel="noopener noreferrer">
 										<p>ソースコード <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"></p>
 									</a>
 								</div>
@@ -203,7 +203,7 @@ function h($str)
 								<div class="works_description">
 									<p>SNSサイトデモ</p>
 									<p>使用技術：HTML / CSS / PHP / MySQL</p>
-									<a class="source" href="#" target="_blank" rel="noopener noreferrer">
+									<a class="source" href="https://github.com/okuda1506/potofolio/tree/main/works/bulletinBoard" target="_blank" rel="noopener noreferrer">
 										<p>ソースコード <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"></p>
 									</a>
 								</div>
@@ -215,7 +215,7 @@ function h($str)
 								<div class="works_description">
 									<p>情報登録サイトデモ（情報の入出力・csvダウンロード機能）</p>
 									<p>使用技術：HTML / CSS / PHP / MySQL</p>
-									<a class="source" href="#" target="_blank" rel="noopener noreferrer">
+									<a class="source" href="https://github.com/okuda1506/potofolio/tree/main/works/registerapp" target="_blank" rel="noopener noreferrer">
 										<p>ソースコード <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"></p>
 									</a>
 								</div>
@@ -227,7 +227,7 @@ function h($str)
 								<div class="works_description">
 									<p>東京の天気予報をツイートするBot</p>
 									<p>使用技術：PHP / 気象庁のAPI</p>
-									<a class="source" href="#" target="_blank" rel="noopener noreferrer">
+									<a class="source" href="https://github.com/okuda1506/weatherTweetBot" target="_blank" rel="noopener noreferrer">
 										<p>ソースコード <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"></p>
 									</a>
 								</div>
@@ -239,7 +239,7 @@ function h($str)
 								<div class="works_description">
 									<p>自作ブログ（※実装中 ソースコードはGitHubにて随時更新しています）</p>
 									<p>使用技術：Laravel / jQuery / microCMS</p>
-									<a class="source" href="#" target="_blank" rel="noopener noreferrer">
+									<a class="source" href="https://github.com/okuda1506/myblog" target="_blank" rel="noopener noreferrer">
 										<p>ソースコード <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"></p>
 									</a>
 								</div>
