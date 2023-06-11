@@ -90,7 +90,7 @@ session_destroy();
 		</div>
 		<div class="right-box">
 			<div class="sns">
-				<a href="https://twitter.com/nnnt0k/" target="_blank" rel="noopener noreferrer"><img src="img/Twitter.svg" alt="Twitterアイコン"></a>
+				<a href="https://github.com/okuda1506" target="_blank" rel="noopener noreferrer"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHubアイコン"></a>
 				<a href="https://www.instagram.com/nnnt0k/" target="_blank" rel="noopener noreferrer"><img src="img/Instagram.svg" alt="Instagramアイコン"></a>
 				<a href="https://www.facebook.com/profile.php?id=100014434240702" target="_blank" rel="noopener noreferrer"><img src="img/facebook.png" alt="facebookアイコン"></a>
 			</div>
