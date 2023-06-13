@@ -468,7 +468,7 @@ function h($str)
 				<div class="skill_type fade-in">
 					<h3>ツール</h3>
 					<p>Git：実務ではソースをGitで管理。ブランチの切り替えやコミット、プッシュ、プル等の基本的な操作は習得済み</p>
-					<p>microCMS：自作ブログの記事やタグを管理するのに使用</p>
+					<p>microCMS：自作ブログの記事やタグを管理するのに使用。PHPでAPI取得が可能</p>
 					<p>Docker：最近になってEC-CUBE開発での環境構築で使用（今まではXAMPP）</p>
 				</div>
 				<table class="fade-in">
@@ -494,7 +494,7 @@ function h($str)
 								<p class="skill_name"><img src="img/microcms.svg" width="30px" height="30px">microCMS</p>
 							</td>
 							<td>1年</td>
-							<td><span class="stars">★★</span><span class="stars_residue">★★★</span></td>
+							<td><span class="stars">★★★</span><span class="stars_residue">★★</span></td>
 						</tr>
 						<tr>
 							<td>
