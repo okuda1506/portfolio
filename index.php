@@ -275,6 +275,11 @@ function h($str)
 					</div>
 					<div class="line"></div>
 				</div>
+				<div class="skill_type annotation fade-in">
+					<h3>※スキルレベルの基準</h3>
+					<p>★★★：基礎知識がある前提で、自力でググりながら実装できる</p>
+					<p>★★★★★：自分が持つ知識だけで実装できる</p>
+				</div>
 				<div class="skill_type fade-in">
 					<h3>開発言語</h3>
 					<p>HTML / CSS：デザインカンプを基にしたWebサイトのマークアップが可能</p>
@@ -333,7 +338,7 @@ function h($str)
 									</svg>TypeScript
 								</p>
 							</td>
-							<td>0年</td>
+							<td>1ヶ月</td>
 							<td><span class="stars">★</span><span class="stars_residue">★★★★</span></td>
 						</tr>
 						<tr>
@@ -419,8 +424,8 @@ function h($str)
 									React
 								</p>
 							</td>
-							<td>1年</td>
-							<td><span class="stars">★★</span><span class="stars_residue">★★★</span></td>
+							<td>1ヶ月</td>
+							<td><span class="stars">★</span><span class="stars_residue">★★★★</span></td>
 						</tr>
 						<tr>
 							<td>
@@ -502,6 +507,13 @@ function h($str)
 						</tr>
 					</tbody>
 				</table>
+				<div class="skill_type fade-in">
+					<h3>注目している技術 / 今後やりたいこと</h3>
+					<p>・ECサイトのSPA化</p>
+					<p>・3D技術を用いたECの商品販売</p>
+					<p>・AR / VR端末におけるWebサイトのUI</p>
+					<p>・AI、機械学習を活用した推奨商品表示やプロモーション</p>
+				</div>
 			</div>
 		</section>
 		<section id="contact">

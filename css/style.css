@@ -382,6 +382,14 @@ header .nav_menu {
     margin-bottom: 10px;
 }
 
+#skills .annotation h3 {
+    font-size: 12px;
+}
+
+#skills .annotation p {
+    font-size: 8px;
+}
+
 #skills table {
     border-collapse: collapse;
     width: 100%;
