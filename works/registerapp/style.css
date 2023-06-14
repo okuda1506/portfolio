@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+/* 共通 */
+html {
+  font-size: 62.5%;
+  /*←1rem = 10px*/
+  background-color: rgb(255, 255, 255);
+}
+
+.wrapper {
+  max-width: 1220px;
+  margin: 0 auto;
+  padding: 0 3%;
+}
+
+.register {
+  color: #999;
+}
+
+h1 {
+  font-size: 4rem;
+  text-align: center;
+  margin: 0 20px;
+}
+
+p {
+  font-size: 1.6rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+input {
+  height: max-content;
+}
+
+.note {
+  color: red;
+}
+
+table {
+  font-size: 1.6rem;
+}
+
+/* 登録画面 */
+.firstName,
+.middleName,
+.lastName {
+  display: flex;
+  align-items: center;
+}
+
+.error {
+  color: red;
+  flex-direction: column;
+  margin: 0;
+}
+
+.registerBtn {
+  margin-top: 30px;
+}
+
+/* データ一覧画面 */
+.registerList {
+  margin: 30px auto;
+}
+
+.noResult {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px auto;
+}
+
+.searchWord {
+  height: 18px;
+}
+
+.searchBtn {
+  margin-left: 15px;
+}
+
+.all {
+  margin-left: 10px;
+}
+
+.all a {
+  color: #767575;
+}
+
+.all a:hover {
+  color: #3e3e3e;
+}
+
+.column {
+  background-color: #999;
+  color: #fff;
+  padding: 5px 10px;
+}
+
+.data {
+  border: solid 1px #aaa;
+  color: #999;
+  padding: 5px 10px;
+}
+
+.btn {
+  text-align: center;
+}
