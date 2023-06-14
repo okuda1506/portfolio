@@ -438,7 +438,7 @@ function h($str)
 								</p>
 							</td>
 							<td>1ヶ月</td>
-							<td><span class="stars">★</span><span class="stars_residue">★★★★</span></td>
+							<td><span class="stars">★★</span><span class="stars_residue">★★★</span></td>
 						</tr>
 						<tr>
 							<td>
