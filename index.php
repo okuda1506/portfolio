@@ -135,7 +135,7 @@ function h($str)
 						</div>
 						<div class="event">
 							<p class="date">2011</p>
-							<p class="description">高校へ進学。未経験からスキー部に所属し、インターハイや全国選抜大会出場を経験</p>
+							<p class="description">高校へ進学。未経験からスキー部に所属し、インターハイや全国選抜大会出場を経験→<a href="https://sajdb.shikuminet.jp/crosscountry/biography/01304799" class="result" target="_blank" rel="noopener noreferrer">成績</a></p>
 						</div>
 						<div class="event">
 							<p class="date">2014</p>

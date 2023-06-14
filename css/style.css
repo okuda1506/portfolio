@@ -40,7 +40,8 @@ section .title .txt {
     transform: scaleX(0);
 }
 
-section .title .profile,  section .title .contact {
+section .title .profile,
+section .title .contact {
     width: 140px;
 }
 
@@ -54,7 +55,7 @@ section .title .txt h2 {
 section .title .line {
     margin-bottom: 10px;
     height: 11px;
-    border-bottom: 1px solid #242424; 
+    border-bottom: 1px solid #242424;
     box-shadow: 0 5px 5px -5px #363636;
     position: relative;
     flex: 1;
@@ -62,14 +63,14 @@ section .title .line {
 }
 
 .fade-in {
-	opacity : 0.02;
-	transform : translate(0, 50px);
-	transition : all 700ms;
+    opacity: 0.02;
+    transform: translate(0, 50px);
+    transition: all 700ms;
 }
 
 .fade-in.scroll-in {
-	opacity : 1;
-	transform : translate(0, 0);
+    opacity: 1;
+    transform: translate(0, 0);
 }
 
 /* header
@@ -127,15 +128,15 @@ header {
 }
 
 .hamburger_btn span:nth-of-type(1) {
-    top:10px;
+    top: 10px;
 }
 
 .hamburger_btn span:nth-of-type(2) {
-    top:18px;
+    top: 18px;
 }
 
 .hamburger_btn span:nth-of-type(3) {
-    top:26px;
+    top: 26px;
 }
 
 .hamburger_btn.active {
@@ -168,7 +169,7 @@ header {
     max-width: 900px;
     margin: 0 auto;
     height: 11px;
-    border-bottom: 1px solid #242424; 
+    border-bottom: 1px solid #242424;
     box-shadow: 0 5px 5px -5px #363636;
     position: relative;
     transform: scaleX(0);
@@ -405,18 +406,20 @@ header .nav_menu {
     font-size: 14px;
 }
 
-#skills th, td {
+#skills th,
+td {
     padding: 10px;
 }
 
 #skills td p {
-    display: flex; 
-    align-items: center; 
+    display: flex;
+    align-items: center;
     width: 96px;
     margin: 0 41%;
 }
 
-#skills td p svg, #skills td p img {
+#skills td p svg,
+#skills td p img {
     margin-right: 10px;
 }
 
@@ -433,10 +436,15 @@ header .nav_menu {
 #contact .thanks {
     height: 37vh;
 }
+
 #contact .description {
     margin-top: 50px;
     margin-bottom: 30px;
     font-size: 12px;
+}
+
+.result {
+    color: #a5a5a5;
 }
 
 #contact .note {
@@ -464,14 +472,17 @@ header .nav_menu {
     padding-top: 20px;
 }
 
-#contact form input, textarea {
+#contact form input,
+textarea {
     width: 350px;
     font-size: 10px;
     border: 1px solid #bbbbbb;
     padding: 3px 2px 2px 2px;
 }
 
-#contact input[type=submit], #contact .back, #contact .to_top {
+#contact input[type=submit],
+#contact .back,
+#contact .to_top {
     margin-top: 20px;
     border: none;
     border-bottom: 2px solid #333;
@@ -484,7 +495,9 @@ header .nav_menu {
     width: 57px;
 }
 
-#contact input[type=submit]:hover, #contact .back:hover, #contact .to_top:hover {
+#contact input[type=submit]:hover,
+#contact .back:hover,
+#contact .to_top:hover {
     color: #9c9c9c;
     border-bottom: 2px solid #9c9c9c;
 }
@@ -495,14 +508,14 @@ header .nav_menu {
 }
 
 .check_contact {
-	opacity : 0.02;
-	transform : translate(0, 50px);
-	transition : all 700ms;
+    opacity: 0.02;
+    transform: translate(0, 50px);
+    transition: all 700ms;
 }
 
 .check_contact.scroll-in {
-	opacity : 1;
-	transform : translate(0, 0);
+    opacity: 1;
+    transform: translate(0, 0);
 }
 
 .btnPosition {
@@ -517,7 +530,7 @@ header .nav_menu {
     margin: 0 auto;
     margin-top: 99px;
     height: 11px;
-    border-bottom: 1px solid #242424; 
+    border-bottom: 1px solid #242424;
     box-shadow: 0 5px 5px -5px #363636;
 }
 
@@ -565,7 +578,8 @@ footer .right-box .sns {
     margin-bottom: 20px
 }
 
-footer .right-box .sns a, footer .right-box .sns a img {
+footer .right-box .sns a,
+footer .right-box .sns a img {
     width: 15px;
     height: 15px;
 }
@@ -576,6 +590,7 @@ footer .right-box .copyright {
 
 /* smartphone */
 @media only screen and (max-width: 767px) {
+
     /* common
     ---------------------------- */
     .container {
@@ -587,7 +602,8 @@ footer .right-box .copyright {
         width: 120px;
     }
 
-    section .title .profile,  section .title .contact{
+    section .title .profile,
+    section .title .contact {
         width: 140px;
     }
 
@@ -609,12 +625,12 @@ footer .right-box .copyright {
         width: 70%;
         margin-left: 10px;
     }
-    
+
     #top .right-box {
         margin-right: 10px;
         width: 30%;
     }
-    
+
     #top #sp .nav_menu {
         display: flex;
         align-items: flex-end;
@@ -661,10 +677,10 @@ footer .right-box .copyright {
     #profile .event::after {
         height: 76px;
     }
-    
+
     /* works
     ---------------------------- */
-    #works .worksList img{
+    #works .worksList img {
         width: 230px;
     }
 
@@ -676,7 +692,8 @@ footer .right-box .copyright {
 
     /* contact
     ---------------------------- */
-    #contact form input, textarea {
+    #contact form input,
+    textarea {
         width: 100%;
     }
 
