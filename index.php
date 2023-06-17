@@ -533,7 +533,7 @@ function h($str)
 					</tbody>
 				</table>
 				<div class="skill_type fade-in">
-					<h3>注目している技術 / 今後やりたいこと</h3>
+					<h3>注目している技術 / 今後やってみたいこと</h3>
 					<p>・ECサイトのSPA化</p>
 					<p>・3D技術を用いたECの商品販売</p>
 					<p>・AR / VR端末におけるWebサイトのUI</p>
