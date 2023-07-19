@@ -147,7 +147,7 @@ function h($str)
 						</div>
 						<div class="event">
 							<p class="date">2019</p>
-							<p class="description">ITに興味を持ち始め、独学でプログラミング(Java)を学び、都内SES企業へ転職。某大手海運会社様の情報システム部にて、RPAシステムの開発を担当</p>
+							<p class="description">ITに興味を持ち始め、独学でプログラミングを学び、都内SES企業へ転職。某大手海運会社様の情報システム部にて、RPAシステムの開発を担当</p>
 						</div>
 						<div class="event">
 							<p class="date">2022</p>
@@ -532,13 +532,6 @@ function h($str)
 						</tr>
 					</tbody>
 				</table>
-				<div class="skill_type fade-in">
-					<h3>注目している技術 / 今後やってみたいこと</h3>
-					<p>・ECサイトのSPA化</p>
-					<p>・3D技術を用いたECの商品販売</p>
-					<p>・AR / VR端末におけるWebサイトのUI</p>
-					<p>・AI、機械学習を活用した推奨商品表示やプロモーション</p>
-				</div>
 			</div>
 		</section>
 		<section id="contact">
